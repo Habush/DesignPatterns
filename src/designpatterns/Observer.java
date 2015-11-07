@@ -56,7 +56,7 @@ class Subject {
 }
 
 interface Observer {
-	public void update();
+	void update();
 }
 
 class ObserverA implements Observer {

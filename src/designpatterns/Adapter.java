@@ -4,7 +4,7 @@ import java.awt.Point;
 import java.awt.Dimension;
 
 interface GUIComponent {
-	public Rectangle boundingBox();
+	Rectangle boundingBox();
 }
 
 class TextShapeAdapter implements GUIComponent

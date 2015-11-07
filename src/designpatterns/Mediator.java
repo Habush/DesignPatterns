@@ -13,7 +13,7 @@ import java.util.List;
  * @author jtherrell
  */
 interface Mediator {
-	public void widgetChanged(Widget changedWidget);
+	void widgetChanged(Widget changedWidget);
 }
 
 class FontDialogMediator implements Mediator {

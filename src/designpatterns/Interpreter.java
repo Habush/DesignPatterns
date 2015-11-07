@@ -13,9 +13,9 @@ import java.util.HashMap;
  * @author jtherrell
  */
 interface BooleanExp {
-	public boolean evaluate(Context context);
-	public BooleanExp replace(String string, BooleanExp exp);
-	public BooleanExp copy();
+	boolean evaluate(Context context);
+	BooleanExp replace(String string, BooleanExp exp);
+	BooleanExp copy();
 }
 
 class Context {

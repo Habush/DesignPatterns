@@ -98,10 +98,10 @@ class Chassis extends CompositeEquipment {
 
 interface EquipmentVisitor{
 	
-	public void visitFloppyDisk(FloppyDisk floppy);
-	public void visitCard(Card card);
-	public void visitChassis(Chassis chassis);
-	public void visitBus(Bus bus);
+	void visitFloppyDisk(FloppyDisk floppy);
+	void visitCard(Card card);
+	void visitChassis(Chassis chassis);
+	void visitBus(Bus bus);
 }
 
 class PricingVisitor implements EquipmentVisitor {
